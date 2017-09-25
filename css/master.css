@@ -1,0 +1,13 @@
+.placesGone {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.placesGone:hover {
+  text-decoration: underline;
+}
+
+
+#show-contact {
+  display: none;
+}

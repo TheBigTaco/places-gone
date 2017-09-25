@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Oh the places you'll go</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Oh the places you'll go</h1>
+      <form class="places" action="index.html" method="post">
+        <input id="country" type="text" placeholder="Country">
+        <input id="landmarks" type="text" placeholder="Landmarks">
+        <input id="year" type="text" placeholder="Year">
+        <input id="language" type="text" placeholder="Language">
+        <button type="submit" name="button" class="btn btn-info">Add</button>
+      </form>
+      <ul id="output"></ul>
+      <div id="show-contact">
+            <h2></h2>
+
+            <p>Country: <span class="country"></span></p>
+            <p>Landmarks: <span class="landmark"></span></p>
+            <p>Year: <span class="year"></span></p>
+            <p>Language: <span class="language"></span></p>
+          </div>
+    </div>
+  </body>
+</html>
